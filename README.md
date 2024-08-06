@@ -1,35 +1,6 @@
-# BankAccountManager
-
-A simple Java application to manage bank account operations like initializing an account, depositing money, and withdrawing money with a minimum balance check.
-
-## Features
-
-- Initialize a bank account with an account number, account holder name, and balance.
-- Deposit money into the account.
-- Withdraw money from the account with a balance check to ensure it does not go below a minimum threshold (1000 units).
-
-## Getting Started
-
-### Prerequisites
-
-- Java Development Kit (JDK) installed on your machine.
-- An IDE or text editor like IntelliJ IDEA, Eclipse, or VS Code for running the Java program.
-
-### Running the Application
-
-1. Clone the repository to your local machine:
-   git clone https://github.com/sugeshrajendiran/BankAccountManager.git
-   cd BankAccountManager
-
-GitHub Repository Description
-Repository Name: BankAccountManager
-
 Description:
 This repository contains a simple Java program that simulates basic bank account operations. Users can initialize an account, deposit money, and withdraw money with a balance check. The program ensures that the account balance never goes below a minimum threshold of 1000 units after a withdrawal. This project is suitable for beginners to understand object-oriented programming concepts in Java, such as classes, objects, and methods.
 
-README.md
-markdown
-Copy code
 # BankAccountManager
 
 A simple Java application to manage bank account operations like initializing an account, depositing money, and withdrawing money with a minimum balance check.
@@ -50,7 +21,7 @@ A simple Java application to manage bank account operations like initializing an
 ### Running the Application
 
 1. Clone the repository to your local machine.
-   git clone https://github.com/your-username/BankAccountManager.git
+   git clone https://github.com/sugeshrajendiran/BankAccountManager.git
    cd BankAccountManager
    
 Compile the Java program:
