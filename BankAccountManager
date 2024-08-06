@@ -1,0 +1,52 @@
+package Projects;
+
+import java.util.Scanner;
+public class account {
+int acc_no;
+String acc_name;
+int acc_bal;
+void init(int acc_no,String acc_name,int acc_bal){
+    this.acc_no=acc_no;
+    this.acc_name=acc_name;
+    this.acc_bal=acc_bal;
+}
+
+void deposit(int dep){
+    this.acc_bal+=dep;
+
+}
+int acc_with(int with){
+    int n=acc_bal-with;
+    if(n>=1000){
+        return 1;
+    }
+    else{
+        return 0;
+    }
+}
+public static void main(String [] args){
+    Scanner scan=new Scanner(System.in);
+    System.out.print("ENTER YOUR ACCOUNT NO: ");
+    int acc_no=scan.nextInt();
+    scan.nextLine();
+    System.out.print("ENTER YOUR ACCOUNT HOLDER NAME: ");
+    String acc_name=scan.nextLine();
+    System.out.print("ENTER YOUR ACCOUNT BALANCE: ");
+    int acc_bal=scan.nextInt();
+    System.out.print("ENTER YOUR DEPOSIT AMOUNT: ");
+    int acc_dep=scan.nextInt();
+    System.out.print("ENTER YOUR WITHDRAWAL AMOUNT: ");
+    int acc_with=scan.nextInt();
+    account obj=new account();
+    obj.init(acc_no,acc_name,acc_bal);
+    obj.deposit(acc_dep);
+    int res=obj.acc_with(acc_with);
+    if(res==1){
+        System.out.println(acc_with+" AS SUCCESSFULLY WITHDRAWAL");
+    }
+    else{
+        System.out.println("INSUFFICIENT BALANCE");
+    }
+
+}
+}
