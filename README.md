@@ -18,7 +18,7 @@ A simple Java application to manage bank account operations like initializing an
 ### Running the Application
 
 1. Clone the repository to your local machine:
-   git clone https://github.com/your-username/BankAccountManager.git
+   git clone https://github.com/sugeshrajendiran/BankAccountManager.git
    cd BankAccountManager
 
 GitHub Repository Description
