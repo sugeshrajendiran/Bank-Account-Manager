@@ -78,15 +78,6 @@ ENTER YOUR WITHDRAWAL AMOUNT: 3000
 3000 HAS SUCCESSFULLY WITHDRAWN
 
 
-Project Structure
-plaintext
-Copy code
-BankAccountManager/
-├── Projects/
-│   └── account.java
-├── .gitignore
-└── README.md
-
 ******************************************************************************************************************************************************************************
 
 Contributing
